@@ -1,0 +1,213 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;  
+    font-family: 'Poppins', sans-serif;
+}
+
+.header {
+    height: 70px;
+    width: 100%;
+    background-color: #133045;
+    color: #adeded;
+}
+
+.logo { 
+    float: left;
+    padding-top: 20px;
+    padding-bottom: 10px;
+    padding-left: 30px;
+    color: aliceblue;
+}
+
+.navbar {
+    margin-left: 800px;
+    padding-top: 27px;
+}
+
+.navbar ul li{
+    list-style: none;
+    display: inline-block;
+    margin-right: 50px;
+}
+
+.navbar ul li a{
+    text-decoration: none;
+    color: aliceblue;
+}
+
+.navbar ul li a:hover {
+    color: #adeded
+}
+
+.homepage {
+    height: 500px;
+    text-align: center;
+    color: #adeded;
+    background-color: #081b29;
+    padding-bottom: 100px;
+    padding-top: 20px;
+}
+
+.homepage img{
+    border-radius: 500px;
+    height: 250px;
+    margin-top: 100px;
+}
+
+.homepage h1{
+    margin-top: 15px;
+}
+
+.homepage p{
+    color: #498787;
+}
+.aboutpage {
+    padding-top: 100px;
+    padding-bottom: 50px;
+    height: 300px;
+    text-align: center;
+    color: #081b29;
+    background-color: beige;
+}
+
+.aboutpage p{
+    margin-top: 20px;
+    padding-inline: 200px;
+    padding-top: 20px;
+    text-align: center;
+    color: #133045;
+}
+
+.box-skill{
+    text-align: center;
+    color: #adeded;
+    background-color: #081b29;
+    align-content: center;
+    height: auto;
+    padding-top: 50px;
+    padding-bottom: 100px;
+}
+
+.box-kiri img, .box-kanan img, .box-tengah img{
+    border-radius: 500px;
+    height: 80px;
+}
+
+.box-kiri, .box-tengah, .box-kanan{
+    width: 250px;
+    text-align: center;
+    height: 270px;
+    background-color: rgb(235, 221, 169);
+    color: #133045;
+    padding: 30px 30px;
+    margin: 30px 20px 20px 70px;
+    border-radius: 10px;
+    float: left;
+    font-size: 11px;
+}
+
+
+.box-kiri:hover, .box-tengah:hover, .box-kanan:hover{
+    background-color: #2d6389;
+    color: rgb(247, 247, 197);
+}
+
+.box-skill h3, p{
+    margin-top: 10px;
+    margin-bottom: 13px;
+    padding: 0px 20px;
+}
+
+.Kontakpage{
+    text-align: justify;
+    color: #081b29;
+    background-color: beige;
+    align-content: center;
+    padding-top: 60px;
+    padding-bottom: 80px;
+}
+
+.Kontakpage h1{
+    margin-left: 110px;
+}
+
+.telp {
+    padding: 10px;
+}
+
+.Kontakpage p{
+    color: #498787;
+    margin-left: 90px;
+}
+
+form {
+    width: 700px;
+    margin: 0 auto;
+    padding-top: 50px;
+    padding-inline: 100px;
+    padding-bottom: 50px;
+    background-color: #081b29;
+    color: #ccc;
+    text-align: left;
+    border-radius: 20px;
+    margin-top: 20px;
+}
+
+h2{
+    padding-bottom: 20px;
+    text-align: center;
+    color: rgb(241, 241, 227);
+}
+
+input, textarea {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 16px;
+    border: 1px solid #081b29;
+    border-radius: 4px;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+button {
+    background-color: #1628e5;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 4px;
+}
+
+button:hover {
+    background-color: #060f15;
+}
+
+.contact-item {
+    display: flex;
+    background-color: beige;
+    padding: 10px;
+}
+  
+.contact-item-icon {
+    margin-left: 100px;
+    width: 50px;
+    height: 30px;
+    border-radius: 50px;
+    display: flex;
+    justify-items: center;
+}
+
+.footer{
+    background-color: #133045;
+    color: #ffffff;
+    text-align: center;
+    padding: 7px;
+}
+
